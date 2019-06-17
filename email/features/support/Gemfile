@@ -1,0 +1,4 @@
+require 'rubygems'
+require 'action_mailer'
+require 'action_view'
+require './mailer_config.rb'

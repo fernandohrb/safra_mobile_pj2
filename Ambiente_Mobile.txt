@@ -1,0 +1,49 @@
+01 - Instalação do JDK - Versão mais atualizada.
+
+Acessar o link https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html?ssSourceSiteId=otnpt e realizar a instalação.
+Utilizada a versão (jdk-8u211-windows-x86 ou x64)
+
+02 - Instalação do Ruby
+
+Para instalar o Ruby basta baixar o instalador acessando a página oficial https://rubyinstaller.org/downloads/ e instalar a versão 2.3.3 ou superior de acordo versão adequada com seu sistema x86(32 bits) ou x64(64 Bits).
+Utilizada a versão (rubyinstaller-devkit-2.4.6-1-x86 ou x64)
+
+03 - Instalação do Appium
+
+Acessar o link https://github.com/appium/appium-desktop/releases/tag/v1.12.1 e realizar o download para a instalação.
+Utilizada a versão (Appium-windows-1.12.1)
+
+04 - Instalação do SDK
+
+Acessar o link https://android-sdk.br.uptodown.com/windows e realizar o download para a instalação
+Utilizada a versão (android-sdk-24-4-1-en-win)
+
+05 - Configuração de variável no windows
+
+Acessar Painel de Controle > Sistema e Segurança > Sistema > Configurações Avançadas do Sistema > Aba Avançado > Opção Variável de Ambiente.
+
+Variável de Usuário:
+
+Path
+C:\Ruby24-x64\bin
+%JAVA_HOME%\bin
+%ANDROID_HOME%bin
+%ANDROID_HOME%tools
+%ANDROID_HOME%tools\bin
+%ANDROID_HOME%plataform-tools
+C:\Program Files (x86)\Java\jre1.8.0_191\bin
+
+
+Nome da variável e Valor da variável:
+
+Nome: ANDROID_HOME
+Valor: C:\Users\Fernando Brito\AppData\Local\Android\android-sdk
+
+Nome: JAVA_HOME
+Java: C:\Program Files (x86)\Java\jre1.8.0_191\bin
+
+06 - Instalação do VSCode
+
+Acessar o link https://code.visualstudio.com/docs/?dv=win e realizar o download para a instalação
+
+Utilizada a versão (VSCodeUserSetup-x64-1.33.1)

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1560536885365" stop="1560536918270">
+  <name>Login</name>
+  <title>Login</title>
+  <test-cases>
+    <test-case start="1560536898197" stop="1560536918254" status="passed">
+      <name>Realizar login 0</name>
+      <title>Realizar login 0</title>
+      <steps>
+        <step start="1560536904710" stop="1560536904710" status="passed">
+          <name>Dado que estou na tela inicial do aplicativo</name>
+          <title>Dado que estou na tela inicial do aplicativo</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4339320"/>
+        <label name="host" value="LP1383"/>
+        <label name="feature" value="Login"/>
+        <label name="story" value="Realizar login 0"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="4339320"/>
+    <label name="host" value="LP1383"/>
+  </labels>
+</ns2:test-suite>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='Cucumber Scenario Statistics' name='description'>
+<meta content='AlienFast' name='author'>
+<title>Cucumber Scenario Statistics</title>
+<!-- Bootstrap core CSS -->
+<link href='//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css' rel='stylesheet'>
+<!-- Custom styles for this layout -->
+<style>
+  body {
+      min-height: 2000px;
+      padding-top: 70px;
+  }
+  
+  td {
+      white-space: nowrap;
+      /*max-width: 100px;*/
+  }
+  tr td:first-child {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 300px;
+  }
+</style>
+<link href='//raw.githack.com/drvic10k/bootstrap-sortable/master/Contents/bootstrap-sortable.css' rel='stylesheet'>
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<!-- Fixed navbar -->
+<div class='navbar navbar-default navbar-fixed-top' role='navigation'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle' data-target='.navbar-collapse' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a class='navbar-brand' href='#'>cucumber_statistics</a>
+</div>
+<div class='navbar-collapse collapse'>
+<ul class='nav navbar-nav navbar-right'>
+<li>
+<a href='https://github.com/alienfast/cucumber_statistics' target='other'>Github</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- /.nav-collapse -->
+<div class='container'>
+<div class='navbar'>
+<div class='tabbable'>
+<ul class='nav nav-tabs'>
+<li class='active'>
+<a class='content_tab' href='#steps_tab' toggle='tab'>
+Steps
+</a>
+</li>
+<li>
+<a class='content_tab' href='#scenarios_tab' toggle='tab'>
+Scenarios
+</a>
+</li>
+<li>
+<a class='content_tab' href='#features_tab' toggle='tab'>
+Features
+</a>
+</li>
+</ul>
+</div>
+<div class='container'>
+<div class='tab-content'>
+<div class='tab-pane active' id='steps_tab'>
+<!-- Main component for a primary marketing message or call to action -->
+<div class='jumbotron'>
+<h1>Cucumber step statistics</h1>
+<p>... allows you to easily identify long running steps.</p>
+</div>
+<div class='alert alert-info'>
+          <span>
+            2 Features,
+            2 Scenarios,
+            2 Steps completed in 35.390s.
+            <span class='text-muted pull-right small'>
+              Finished on 06/13/2019 at 03:52PM
+            </span>
+          </span>
+
+</div>
+<table class='table table-bordered table-striped sortable'>
+<thead>
+<tr>
+<th>Step</th>
+<th>Fastest</th>
+<th>Slowest</th>
+<th>Variation</th>
+<th>Variance</th>
+<th>Std Deviation</th>
+<th>Count</th>
+<th>Average</th>
+<th data-defaultsort='desc'>Total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td title="features/features/login.feature:9">"que estou na tela inicial do aplicativo"</td>
+<td  data-value="5.722019" title="5.722019">5.722s</td>
+<td  data-value="6.735998" title="6.735998">6.735s</td>
+<td class="danger" data-value="1.013979" title="1.013979">1.013s</td>
+<td  data-value="0.5140767062205" title="0.5140767062205">0.514s</td>
+<td  data-value="0.7169914268807542" title="0.7169914268807542">0.716s</td>
+<td data-value="2">2</td>
+<td class="danger" data-value="6.229008500000001" title="6.229008500000001">6.229s</td>
+<td class="danger" data-value="12.458017000000002" title="12.458017000000002">12.458s</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- /container -->
+<div class='tab-pane' id='scenarios_tab'>
+<!-- Main component for a primary marketing message or call to action -->
+<div class='jumbotron'>
+<h1>Cucumber scenario statistics</h1>
+<p>... find those slow scenarios.</p>
+</div>
+<div class='alert alert-info'>
+          <span>
+            2 Features,
+            2 Scenarios,
+            2 Steps completed in 35.390s.
+            <span class='text-muted pull-right small'>
+              Finished on 06/13/2019 at 03:52PM
+            </span>
+          </span>
+
+</div>
+<table class='table table-bordered table-striped sortable'>
+<thead>
+<tr>
+<th>Scenario File</th>
+<th data-defaultsort='desc'>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td title="Realizar login 0 cobranca">features/features/cobranca.feature:8</td>
+<td data-value="1.613985" title="1.613985">1.613s</td>
+</tr>
+<tr>
+<td title="Realizar login 0">features/features/login.feature:8</td>
+<td data-value="1.433998" title="1.433998">1.433s</td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- /container -->
+<div class='tab-pane' id='features_tab'>
+<!-- Main component for a primary marketing message or call to action -->
+<div class='jumbotron'>
+<h1>Cucumber feature statistics</h1>
+<p>... find those slow features.</p>
+</div>
+<div class='alert alert-info'>
+          <span>
+            2 Features,
+            2 Scenarios,
+            2 Steps completed in 35.390s.
+            <span class='text-muted pull-right small'>
+              Finished on 06/13/2019 at 03:52PM
+            </span>
+          </span>
+
+</div>
+<table class='table table-bordered table-striped sortable'>
+<thead>
+<tr>
+<th>Feature File</th>
+<th data-defaultsort='desc'>Time</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td title="Cobrança
+acessar funcionalidades do login
+Para determinar a disponibilidade do sistema">features/features/cobranca.feature:3</td>
+<td data-value="17.096007" title="17.096007">17.096s</td>
+</tr>
+<tr>
+<td title="Login
+acessar funcionalidades do login
+Para determinar a disponibilidade do sistema">features/features/login.feature:3</td>
+<td data-value="18.294" title="18.294">18.294s</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- /container -->
+<!-- Bootstrap core JavaScript -->
+<!-- \================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
+<script src='//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
+<script src='//raw.githack.com/drvic10k/bootstrap-sortable/master/Scripts/moment.min.js'></script>
+<script src='//raw.githack.com/drvic10k/bootstrap-sortable/master/Scripts/bootstrap-sortable.js'></script>
+<script>
+  // Initialise on DOM ready
+  $(function() {
+      $.bootstrapSortable(true, 'reversed');
+  });
+  $('a.content_tab').click(function (e) {
+    e.preventDefault();
+    $(e.target).tab('show');
+  });
+</script>
+</body>
+</html>

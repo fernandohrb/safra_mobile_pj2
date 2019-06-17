@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ns2:test-suite xmlns="" xmlns:ns2="urn:model.allure.qatools.yandex.ru" start="1560536832723" stop="1560536885365">
+  <name>Cobran&#xE7;a</name>
+  <title>Cobran&#xE7;a</title>
+  <test-cases>
+    <test-case start="1560536885332" stop="1560536885358" status="failed">
+      <name>Realizar login 0 cobranca</name>
+      <title>Realizar login 0 cobranca</title>
+      <failure>
+        <message>An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200</message>
+        <stack-trace>UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8200&#xD;
+    at JWProxy.command (C:\Program Files (x86)\Appium\resources\app\node_modules\appium-base-driver\lib\jsonwp-proxy\proxy.js:236:13)&#xD;
+./features/support/hooks.rb:2:in `Before'</stack-trace>
+      </failure>
+      <steps>
+        <step start="1560536885352" stop="1560536885353" status="canceled">
+          <name>Dado que estou na tela inicial do aplicativo</name>
+          <title>Dado que estou na tela inicial do aplicativo</title>
+          <attachments/>
+        </step>
+      </steps>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4339320"/>
+        <label name="host" value="LP1383"/>
+        <label name="feature" value="Cobran&#xE7;a"/>
+        <label name="story" value="Realizar login 0 cobranca"/>
+      </labels>
+      <parameters/>
+    </test-case>
+  </test-cases>
+  <labels>
+    <label name="severity" value="normal"/>
+    <label name="thread" value="4339320"/>
+    <label name="host" value="LP1383"/>
+  </labels>
+</ns2:test-suite>

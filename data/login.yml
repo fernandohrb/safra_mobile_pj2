@@ -1,0 +1,19 @@
+producao:
+  empresa: "INMETRICS S 495"
+  # cel rogério
+  usuario: "THIAGORO"
+  senha: "teste101"
+
+  # MOB055 Produção
+  # usuario: "THIAGORO"
+  # senha: "teste101"
+homologacao:
+  # MOB055
+  # empresa: "CABANAS 768"
+  # usuario: "CABANAS"
+
+  # MOB044
+  empresa: "ICAT 317"
+  usuario: "ICAT 317"
+  senha: "PAULIST1"
+  Cliente: "I CAT FOCUS ON SOLUTIONS LTDA"
